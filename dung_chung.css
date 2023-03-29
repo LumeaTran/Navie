@@ -1,0 +1,130 @@
+header {
+    background-color: #f6dbeb;
+}
+
+.banner {
+    background-color: rgb(254, 234, 208);
+}
+
+.products {
+    background-color: darkgoldenrod;
+}
+
+.shop-pagination {
+    background-color: darksalmon;
+}
+
+footer {
+    background-color: beige;
+}
+
+header,
+footer,
+section {
+    min-height: 40px;
+}
+
+/*các dòng trên là tam thời, sẽ bỏ đi khi hoàn tất */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    width: 20px;
+    height: 20px
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.padding-all {
+    padding: 20px;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------ */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    left: 0;
+    top: 0
+}
+
+.link-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link-logo img {
+    width: 100px;
+}
+
+.link-gh {
+    margin-left: 10px;
+    position: relative;
+}
+
+.link-gh span {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: solid 1px #e17037;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 50%;
+    color: #fb8122;
+}
+
+header>*:first-child {
+    margin-right: auto;
+}
+
+header button {
+    padding: 0;
+    border: none;
+    background-color: transparent
+}
+
+header svg {
+    fill: #999
+}
+
+.banner {
+    height: 200px;
+}
+
+.b1 {
+    background-color: #e17037;
+}
+
+.b1 {
+    background-color: lightblue;
+}
+
+.b1 {
+    background-color: lightgray;
+}
+
+.banner .swiper-slide {
+    background-color: cover;
+    background-position: center;
+}
